@@ -111,7 +111,10 @@
 	justify-content: flex-start;
 	text-align: center;
 	align-items: center;
-	outline: none;
+}
+
+.navigation ul li a:focus {
+	outline: 0;
 }
 
 .navigation ul li a .icon {
